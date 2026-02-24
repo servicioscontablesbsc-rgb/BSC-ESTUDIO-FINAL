@@ -6,6 +6,10 @@
     box-sizing:border-box;
 }
 
+html{
+    scroll-behavior:smooth;
+}
+
 body{
     font-family:"Open Sans", sans-serif;
     background:#f4f6f9;
@@ -122,6 +126,25 @@ body{
     background:#a0002b;
 }
 
+/* ABOUT */
+.about{
+    padding:100px 0;
+    text-align:center;
+    background:white;
+}
+
+.about h2{
+    font-size:36px;
+    margin-bottom:40px;
+}
+
+.about-content{
+    max-width:800px;
+    margin:auto;
+    font-size:18px;
+    line-height:1.8;
+}
+
 /* SERVICES */
 .services{
     padding:100px 0;
@@ -161,6 +184,7 @@ body{
 .contact{
     padding:100px 0;
     text-align:center;
+    background:white;
 }
 
 .contact p{
@@ -205,6 +229,7 @@ body{
 
 /* RESPONSIVE */
 @media(max-width:768px){
+
     .navbar{
         position:absolute;
         top:60px;
@@ -231,7 +256,13 @@ body{
     .menu-icon{
         display:block;
     }
-}
-html{
-    scroll-behavior: smooth;
+
+    .header h1{
+        font-size:32px;
+    }
+
+    .header p{
+        font-size:16px;
+    }
+
 }
